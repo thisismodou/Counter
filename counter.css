@@ -1,0 +1,61 @@
+body{
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0 auto;
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+#counterMinusButton, #counterPlusButton{
+    width: 80px;
+    height: 50px;
+    background-color: transparent;
+    border: 1px solid tomato;
+    font-size: 30px;
+    color: tomato;
+    outline: none;
+}
+
+#counterMinusButton{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+#counterPlusButton{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#counterMinusButton:hover, #counterPlusButton:hover{
+    cursor: pointer;
+    background-color: tomato;
+    color: #fff;
+}
+
+#counterField{
+    width: 200px;
+    height: 48px;
+    border-top: 1px solid tomato;
+    border-bottom: 1px solid tomato;
+    border-left: none;
+    border-right: none;
+    padding: 0px;
+    outline: none;
+    text-align: center;
+    line-height: 0px;
+    font-size: 20px;
+    color: tomato;
+    -webkit-appearance: none;
+}
+
+/* Hide HTML5 Up and Down arrows for number input fields */
+input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}

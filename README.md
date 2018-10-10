@@ -1,0 +1,1 @@
+A simple counter. Increase or decrease counter by clicking on the plus or minus buttons respectively, or by entering a number on your keyboard, minimum is 1 and max is 10. If you type a number that's more than 10, it'll automatically reset to 10, which is the most allowed; and if you type a number less than 1, it'll automatically reset to 1, which is the least allowed. 
